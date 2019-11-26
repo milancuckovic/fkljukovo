@@ -1,0 +1,142 @@
+<!DOCTPYE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict/EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xnlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FK Ljukovo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fudbalski, Klub, Ljukovo, Fudbal, Utakmica, Srem, Inđija" />
+    <meta name="description" content="FK Ljukovo osnovan 1975. je aktivan fudbalski klub iz Srbije, opština Inđija, sremski okrug, se trenutno takmiči u Sremskoj ligi." />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" type="image/ico" href="slike/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script>
+		function posalji()
+		{
+			var email=document.getElementById('email').value;
+			var naslov=document.getElementById('naslov').value;
+			var poruka=document.getElementById('poruka').value;
+			if(email != "" && naslov != "" && poruka != "")
+			{
+				alert("Vaša poruka je uspešno primljena! Hvala!"+email);
+			}
+			else
+			{
+				alert("Popunite sva polja!");
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="heder">
+		<img src="slike/pozadina.jpg" class="heroimage img-responsive" alt="hero image" />
+		<nav class="navbar navbar-inverse" style="background-color:rgb(31, 88, 180); border:none; border-radius:0px;font-size:20px;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:rgb(31, 88, 180);border-color:white;">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img src="slike/grb.png" class="navbar-brand" />
+					<a class="navbar-brand" href="index.html" style="color:white;">FK Ljukovo</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar" style="color:white;">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="oklubu.html">O klubu</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="panel-body">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2>Kontaktirajte nas uz pomoć sledećih podataka</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col-md-6">
+                    <adresa>
+                        <strong>Adresa:<br /></strong>
+                        1. Novembar 112<br />
+                        <strong>Ljukovo,</strong> 22321<br /><br />
+
+                    </adresa>
+                    <tel>
+                        <strong>Telefon:<br /></strong>022/587-115<br />
+                        064/548-5879
+                        <br /><br />
+                    </tel>
+                    <email>
+                        <strong>Email:<br /></strong>
+                        <strong>Informacije:</strong>   <a href="mailto:info@fkljukovo.com">info@fkljukovo.com</a><br />
+                        <strong>Marketing:</strong> <a href="mailto:marketing@fkljukovo.com">marketing@fkljukovo.com</a><br /><br />
+                    </email>
+
+                    <lokacija>
+                        <strong>Nalazimo se na ovoj lokaciji:<br /></strong>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1678.1330402779645!2d20.029215113354304!3d45.024733907597266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a55e8b2f21307%3A0x8d59070f4873c820!2z0KTRg9C00LHQsNC70YHQutC4INC60LvRg9CxINCJ0YPQutC-0LLQvg!5e0!3m2!1ssr!2srs!4v1574435260333!5m2!1ssr!2srs" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </lokacija>
+                </div>
+                <div class="col-md-6">
+                        <div class="panel panel-default p-5">
+                            <div class="panel-body p-5">
+                                <p><i>Možete nam poslati poruku i putem sajta</i></p>
+                                <form class="form-group">
+                                    <br />
+                                    <label>Email:</label><br />
+                                    <input type="email" class="form-control" id="email" required/><br />
+                                    <label>Naslov:</label><br />
+                                    <input type="text" class="form-control" id="naslov" required/><br />
+                                    <label>Poruka:</label><br />
+                                    <textarea class="form-control" rows="5" id="poruka" required></textarea><br />
+                                    <button type="submit" class="btn btn-info" onclick="posalji()">Pošalji</button>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+	<div class="futer">
+		<footer class="page-footer font-small" style="background-color:rgb(31, 88, 180);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 py-5">
+						<div class="text-center">
+							<div class="row">
+								<p>Zapratite nas na društevnim mrežama:</p>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+								   
+								</div>
+								<div class="col-md-4">
+									<a href="https://www.facebook.com/"><img src="slike/facebook-logo.png" /></a>
+									<a href="https://twitter.com/"><img src="slike/twitter-logo.png" /></a>
+									<a href="https://www.youtube.com/"><img src="slike/youtube-logo.png" /></a>
+								</div>
+								<div class="col-md-4">
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center py-3">
+			   <p>© Milan Čučković IT 43/17</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
